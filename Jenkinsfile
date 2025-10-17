@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         SERVICE = 'account'
-        NAME = "felipemarianoferr/${env.SERVICE}"
+        NAME = "felipemf2/${env.SERVICE}"
     }
     stages {
         stage('Dependecies') {
